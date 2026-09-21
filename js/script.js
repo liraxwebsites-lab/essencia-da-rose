@@ -5,8 +5,8 @@
    ========================================================================= */
 
 const CONFIG = {
-  // WhatsApp da loja (55 + DDD + número)
-  whatsapp: "5521978751109",
+  // WhatsApp que recebe os pedidos (55 + DDD + número)
+  whatsapp: "5521988156755", // +55 21 98815-6755
   storeName: "Essência da Rose",
   sellerName: "Rose",
   currency: "R$"
