@@ -642,24 +642,6 @@ section {
     margin-bottom: 24px;
 }
 
-.share-links {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.social-share {
-    font-size: 0.85rem;
-    color: #6E6259;
-    text-decoration: none;
-    transition: color 0.3s;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.social-share:hover {
-    color: #A67C52;
-}
-
 /* NO RESULTS */
 .no-results {
     text-align: center;
