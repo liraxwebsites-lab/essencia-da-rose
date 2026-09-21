@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja | Essência da Rose</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Helvetica+Neue:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="responsive">
+
+    <div id="SITE_CONTAINER">
+        <div id="site-root">
+            <div id="masterPage" class="mesh-layout">
+
+                <div id="SITE_HEADER">
+                    <nav class="navbar">
+                        <div class="nav-container">
+                            <a href="index.html" class="logo">
+                                <span class="logo-text">Essência da Rose</span>
+                            </a>
+                            <div class="nav-links">
+                                <a href="index.html">Home</a>
+                                <a href="loja.html" class="active">Loja</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div id="WIX_ADS"></div>
+
+                <div id="PAGES_CONTAINER">
+                    <div id="main_MF" class="main_MF">
+
+                        <section class="site-section">
+                            <div class="section-inner">
+                                <div class="container">
+                                    <div class="page-hero">
+                                        <h1>Nossa Loja</h1>
+                                        <p>Explore toda a nossa curadoria de cosméticos premium</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="site-section">
+                            <div class="section-inner">
+                                <div class="container" style="padding-top:0;">
+                                    <div class="filter-bar">
+                                        <input type="text" id="search" placeholder="Buscar produto...">
+                                        <select id="category-filter">
+                                            <option value="all">Todas as categorias</option>
+                                            <option value="Fragrâncias">Fragrâncias</option>
+                                            <option value="Cabelos">Cabelos</option>
+                                            <option value="Desodorantes">Desodorantes</option>
+                                        </select>
+                                    </div>
+
+                                    <div id="products-grid" class="products-grid">
+                                    </div>
+                                    <div id="no-results" class="no-results" style="display:none;">
+                                        <p>Nenhum produto encontrado.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+
+                <div id="BACKGROUND_GROUP_TRANSITION_GROUP"></div>
+
+                <div id="SITE_FOOTER">
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="footer-bottom">
+                                <p>&copy; 2026 Essência da Rose. Todos os direitos reservados.</p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+        <div id="SCROLL_TO_TOP">
+            <a href="#top" title="Voltar ao topo">↑</a>
+        </div>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/product-images.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

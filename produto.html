@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto | Essência da Rose</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Helvetica+Neue:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body class="responsive">
+
+    <div id="SITE_CONTAINER">
+        <div id="site-root">
+            <div id="masterPage" class="mesh-layout">
+
+                <div id="SITE_HEADER">
+                    <nav class="navbar">
+                        <div class="nav-container">
+                            <a href="index.html" class="logo">
+                                <span class="logo-text">Essência da Rose</span>
+                            </a>
+                            <div class="nav-links">
+                                <a href="index.html">Home</a>
+                                <a href="loja.html">Loja</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+
+                <div id="WIX_ADS"></div>
+
+                <div id="PAGES_CONTAINER">
+                    <div id="main_MF" class="main_MF">
+
+                        <section class="site-section">
+                            <div class="section-inner">
+                                <div class="container">
+                                    <div class="page-hero">
+                                        <h1>Produto</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="site-section product-detail">
+                            <div class="section-inner">
+                                <div class="container" id="product-detail">
+                                    <div class="product-detail-grid">
+                                        <div class="product-detail-img">
+                                            <img id="detail-image" src="imagens/produtos/placeholder.jpg" alt="">
+                                        </div>
+                                        <div class="product-detail-info">
+                                            <span id="detail-category" class="category-tag"></span>
+                                            <h1 id="detail-name"></h1>
+                                            <p id="detail-brand" class="brand-name-detail"></p>
+                                            <p id="detail-price" class="detail-price"></p>
+                                            <p id="detail-code" class="detail-code"></p>
+                                            <div id="option-wrap" class="option-selector">
+                                                <label for="option-select">Escolha a variação:</label>
+                                                <select id="option-select"></select>
+                                            </div>
+                                            <p id="detail-description" class="detail-description"></p>
+                                            <div class="quantity-selector">
+                                                <label for="quantity">Quantidade:</label>
+                                                <input type="number" id="quantity" value="1" min="1">
+                                            </div>
+                                            <div class="detail-actions">
+                                                <button type="button" id="add-to-cart-btn" class="btn-secondary">Adicionar ao carrinho</button>
+                                                <button type="button" id="buy-now-btn" class="btn-primary">Comprar pelo WhatsApp</button>
+                                            </div>
+                                            <div class="share-links">
+                                                <a href="#" class="social-share">Facebook</a>
+                                                <a href="#" class="social-share">Pinterest</a>
+                                                <a href="#" class="social-share">WhatsApp</a>
+                                                <a href="#" class="social-share">Twitter</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+
+                <div id="BACKGROUND_GROUP_TRANSITION_GROUP"></div>
+
+                <div id="SITE_FOOTER">
+                    <footer class="footer">
+                        <div class="container">
+                            <div class="footer-bottom">
+                                <p>&copy; 2026 Essência da Rose. Todos os direitos reservados.</p>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+
+            </div>
+        </div>
+        <div id="SCROLL_TO_TOP">
+            <a href="#top" title="Voltar ao topo">↑</a>
+        </div>
+    </div>
+
+    <script src="js/products.js"></script>
+    <script src="js/product-images.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

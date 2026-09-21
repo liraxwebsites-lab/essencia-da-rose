@@ -1,0 +1,8 @@
+# Arquivos que não precisam subir no deploy (a Vercel Hobby limita o upload a 100 MB)
+pdf-original/
+imagens/produtos/revista_pages/
+HISTORICO_CONVERSAS.txt
+.commandcode/
+README.md
+node_modules/
+.vercel/

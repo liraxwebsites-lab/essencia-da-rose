@@ -1,0 +1,20 @@
+# ---- dependências ----
+node_modules/
+
+# ---- configuração do agente / histórico de sessão ----
+.commandcode/
+HISTORICO_CONVERSAS.txt
+
+# ---- arquivos-fonte pesados (ficam só na sua máquina) ----
+# os PDFs (60 MB) e os recortes antigos (27 MB) são a origem do catálogo,
+# mas não são usados pelo site. Mantenha-os localmente, fora do repo.
+pdf-original/
+imagens/produtos/revista_pages/
+
+# ---- Vercel ----
+.vercel/
+
+# ---- sistema ----
+Thumbs.db
+desktop.ini
+.DS_Store
